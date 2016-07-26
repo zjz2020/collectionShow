@@ -13,6 +13,9 @@
 		F95A70901D46DD81008CCAA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95A708E1D46DD81008CCAA7 /* Main.storyboard */; };
 		F95A70921D46DD81008CCAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95A70911D46DD81008CCAA7 /* Assets.xcassets */; };
 		F95A70951D46DD81008CCAA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95A70931D46DD81008CCAA7 /* LaunchScreen.storyboard */; };
+		F95A709E1D46DDEC008CCAA7 /* HMLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F95A709D1D46DDEC008CCAA7 /* HMLineLayout.m */; };
+		F95A70A21D46DE31008CCAA7 /* HMImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F95A70A01D46DE31008CCAA7 /* HMImageCell.m */; };
+		F95A70A31D46DE31008CCAA7 /* HMImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95A70A11D46DE31008CCAA7 /* HMImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		F95A70911D46DD81008CCAA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F95A70941D46DD81008CCAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F95A70961D46DD81008CCAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95A709C1D46DDEC008CCAA7 /* HMLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLineLayout.h; sourceTree = "<group>"; };
+		F95A709D1D46DDEC008CCAA7 /* HMLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLineLayout.m; sourceTree = "<group>"; };
+		F95A709F1D46DE31008CCAA7 /* HMImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageCell.h; sourceTree = "<group>"; };
+		F95A70A01D46DE31008CCAA7 /* HMImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageCell.m; sourceTree = "<group>"; };
+		F95A70A11D46DE31008CCAA7 /* HMImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,12 @@
 				F95A70891D46DD81008CCAA7 /* AppDelegate.m */,
 				F95A708B1D46DD81008CCAA7 /* ViewController.h */,
 				F95A708C1D46DD81008CCAA7 /* ViewController.m */,
+				F95A709F1D46DE31008CCAA7 /* HMImageCell.h */,
+				F95A70A01D46DE31008CCAA7 /* HMImageCell.m */,
+				F95A70A11D46DE31008CCAA7 /* HMImageCell.xib */,
 				F95A708E1D46DD81008CCAA7 /* Main.storyboard */,
+				F95A709C1D46DDEC008CCAA7 /* HMLineLayout.h */,
+				F95A709D1D46DDEC008CCAA7 /* HMLineLayout.m */,
 				F95A70911D46DD81008CCAA7 /* Assets.xcassets */,
 				F95A70931D46DD81008CCAA7 /* LaunchScreen.storyboard */,
 				F95A70961D46DD81008CCAA7 /* Info.plist */,
@@ -136,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95A70A31D46DE31008CCAA7 /* HMImageCell.xib in Resources */,
 				F95A70951D46DD81008CCAA7 /* LaunchScreen.storyboard in Resources */,
 				F95A70921D46DD81008CCAA7 /* Assets.xcassets in Resources */,
 				F95A70901D46DD81008CCAA7 /* Main.storyboard in Resources */,
@@ -149,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95A709E1D46DDEC008CCAA7 /* HMLineLayout.m in Sources */,
 				F95A708D1D46DD81008CCAA7 /* ViewController.m in Sources */,
+				F95A70A21D46DE31008CCAA7 /* HMImageCell.m in Sources */,
 				F95A708A1D46DD81008CCAA7 /* AppDelegate.m in Sources */,
 				F95A70871D46DD81008CCAA7 /* main.m in Sources */,
 			);
